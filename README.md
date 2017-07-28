@@ -11,26 +11,26 @@ To install you must follow the following setps:
 
 1. Clone this repository in `.vim` folder, to do this step you must have saved a backup of the `.vim` folder.
 
-```
-git clone git@github.com:ryctabo/vimrc.git ~/.vim
-```
+    ```sh
+    $ git clone git@github.com:ryctabo/vimrc.git ~/.vim
+    ```
 2. Create a symbolic link to `vimrc` file, remember to also have a `.vimrc` file backup.
 
-```
-ln -s ~/.vim/vimrc ~/.vimrc
-```
+    ```sh
+    $ ln -s ~/.vim/vimrc ~/.vimrc
+    ```
 3. Install [Solarized]() theme:
 
-```
-git clone git@github.com:altercation/vim-colors-solarized.git ~/.vim/themes/solarized
-cp ~/.vim/themes/solarized/colors/* ~/.vim/colors
-```
+    ```sh
+    $ git clone git@github.com:altercation/vim-colors-solarized.git ~/.vim/themes/solarized
+    $ cp ~/.vim/themes/solarized/colors/* ~/.vim/colors
+    ```
 
 4. Install [Vundle](https://github.com/VundleVim/Vundle.vim).
 
-```
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-```
+    ```sh
+    $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    ```
 5. Install plugins:
 
     Launch `vim` and run `:PluginInstall`
