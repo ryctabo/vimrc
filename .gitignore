@@ -1,0 +1,8 @@
+# Vundle.vim is a plugin manager
+/bundle
+
+# Place where Vundle.vim saves installed plugins
+/plugged
+
+# Colors installed
+/colors
