@@ -4,5 +4,7 @@
 # Place where Vundle.vim saves installed plugins
 /plugged
 
-# Colors installed
+# Colors and themes installed
 /colors
+/themes
+
