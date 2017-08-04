@@ -1,4 +1,7 @@
 # Ryctabo VimRC
+![Screeshot1](screenshot1.png)
+![Screeshot2](screenshot2.png)
+
 This my vimrc setup. Keeping your vim setup in a Git repository is cool because you can track the changes you do to your set up, you can rollback if something goes wrong, you can branch and test new settings while keeping your base setup stable.
 
 ## Requirements
